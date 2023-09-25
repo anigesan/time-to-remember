@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FormApp</string>
+    <string name="name">Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="location">Location</string>
+    <string name="done">done</string>
+</resources>

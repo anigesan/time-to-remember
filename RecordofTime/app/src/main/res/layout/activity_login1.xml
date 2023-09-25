@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/hello"
+        android:layout_width="406dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="5sp" />
+
+    <EditText
+        android:id="@+id/edt_usernameLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hello"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:id="@+id/edt_passwordLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_usernameLogin"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="textPassword"
+        android:hint="Password"
+        />
+
+    <Button
+        android:id="@+id/btn_loginLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_passwordLogin"
+        android:text="LOGIN"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="50dp" />
+
+    <Button
+        android:id="@+id/btn_registerLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_passwordLogin"
+        android:layout_toEndOf="@+id/btn_loginLogin"
+        android:text="REGISTER"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/register"
+        android:layout_width="406dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/edt_passwordLogin"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="5sp" />
+
+
+</RelativeLayout>

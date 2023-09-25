@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro"
+    tools:context=".RegistLogin">
+
+    <ImageView
+        android:id="@+id/hello"
+        android:layout_width="406dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="5sp" />
+
+    <EditText
+        android:id="@+id/edt_usernameRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hello"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:id="@+id/edt_emailRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_usernameRegister"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/edt_passwordRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_emailRegister"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Password"
+        />
+
+    <EditText
+        android:id="@+id/edt_confPasswordRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_passwordRegister"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Confirm Password"
+        />
+
+    <Button
+        android:id="@+id/btn_loginRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_confPasswordRegister"
+        android:text="LOGIN"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="80dp" />
+
+    <Button
+        android:id="@+id/btn_registerRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_confPasswordRegister"
+        android:layout_toEndOf="@+id/btn_loginRegister"
+        android:layout_marginLeft="15dp"
+        android:text="REGISTER NOW"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="406dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/btn_loginRegister"
+        android:layout_marginRight="5sp"/>
+
+</RelativeLayout>
